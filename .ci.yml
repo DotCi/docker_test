@@ -1,0 +1,2 @@
+image: ubuntu
+script: echo meow
