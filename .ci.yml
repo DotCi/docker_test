@@ -1,2 +1,2 @@
-image: suryagaddipati/java-7-maven
+image: mischief/docker-golang
 script: echo meow
