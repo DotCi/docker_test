@@ -1,2 +1,2 @@
-image: ubuntu
+image: suryagaddipati/java-7-maven
 script: echo meow
