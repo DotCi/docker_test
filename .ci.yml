@@ -1,2 +1,4 @@
 image: mischief/docker-golang
-script: echo meow
+script: 
+        one: echo one
+        two: echo two
