@@ -2,5 +2,5 @@ image: mischief/docker-golang
 services:
      - orchardup/mysql
 script: 
-	- echo meow
-	- env
+    - echo meow
+    - env
