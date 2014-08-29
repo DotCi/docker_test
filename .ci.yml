@@ -1,2 +1,2 @@
 image: mischief/docker-golang
-script: echo meow
+script: ls && sleep 10000
