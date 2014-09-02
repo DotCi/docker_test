@@ -1,6 +1,8 @@
 image: mischief/docker-golang
 services:
-     - orchardup/mysql
+     - image: mysql
+       run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
+       
 script: 
     - echo meow
     - env
