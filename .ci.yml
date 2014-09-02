@@ -1,4 +1,5 @@
 image: mischief/docker-golang
+run_options: "-v /tmp:/tmp"
 services:
      - image: mysql
        run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
