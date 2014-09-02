@@ -1,2 +1,3 @@
 image: mischief/docker-golang
-script: ls && sleep 10000
+run_options: "-v /tmp:/tmp"
+script: ls 
