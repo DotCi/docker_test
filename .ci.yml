@@ -1,5 +1,5 @@
 services:
  - orchardup/mysql
-script: 
+command: 
 - echo meow
 - env
