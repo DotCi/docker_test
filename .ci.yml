@@ -1,2 +1,4 @@
 image: mischief/docker-golang
 command: echo meow
+run_options: "-v /tmp:/tmp"
+script: ls 
