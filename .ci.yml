@@ -2,3 +2,6 @@ image: mischief/docker-golang
 command: 
 - echo meow
 - env
+services:
+     - image: mysql
+       run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
