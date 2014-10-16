@@ -1,7 +1,7 @@
-image: mischief/docker-golang
-command: 
-- echo meow
-- env
-services:
-     - image: mysql
-       run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
+image: docker-registry:80/release_engineering/dotci_docker_builder #name of image to run the build against
+command:
+  - echo 'this is a command'
+plugins:
+  - docker_publish:
+      repository: docker-registry:80
+      name: dockerize/file_sharing_servicee
