@@ -1,5 +1,7 @@
 image: mischief/docker-golan
-command: echo meow
+command: 
+  meow: echo meow
+  purr: echo purr
 links:
      - image: mysql
        run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
