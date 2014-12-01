@@ -1,9 +1,7 @@
-image: mischief/docker-golang
-run_options: "-v /tmp:/tmp"
-services:
+image: mischief/docker-golan
+command: echo meow
+links:
      - image: mysql
        run_options: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
        
-script: 
-    - echo meow
-    - env
+
